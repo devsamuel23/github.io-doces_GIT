@@ -1,0 +1,19 @@
+.container {
+    display:
+    flex;
+    grid-template-columns:
+    repeat(4, auto);
+    grid-template-rows:
+    60px 60px 60px 60px;
+    justify-content:
+    
+    stretch;
+    flex-direction: column;
+    }
+
+    .loading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14px;
+    }
