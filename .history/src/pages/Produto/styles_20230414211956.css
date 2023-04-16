@@ -1,0 +1,9 @@
+.produto-container{
+    padding: 200px 200px;
+    display: flex;
+    justify-content: center;
+}
+.produto-container div{
+    flex-direction: column;
+    margin-left: 100px;
+}

@@ -1,0 +1,9 @@
+.produto-container{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: ce;
+}
+.produto-container div{
+    flex-direction: column;
+
+}

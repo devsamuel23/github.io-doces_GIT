@@ -1,0 +1,221 @@
+body {
+    background-color: #f2e1e2;
+}
+
+
+.vit {
+    padding: 50px 200px;
+}
+
+.vit h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: alex brush;
+    text-shadow: rgb(175, 76, 76) 0.1em 0.1em 0.2em;
+}
+
+/* .item-vitrine {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.row {
+    margin-top: 35px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    color: brown;
+    font-family: "Bodoni MT";
+    font-size: 20px;
+    width: 900px;
+    word-wrap: break-word;
+}
+
+.img-sombra {
+    box-shadow: 7px 7px 13px 10px rgba(20, 30, 40, 0.22);
+}
+
+img {
+    height: 300px;
+    /* clip-path: circle(150px at center); */
+    borde
+    border: solid 2 black;
+}
+
+/* .image,
+.produto,
+.vitrine {
+    display: inline;
+    justify-content: space-between;
+    width: 333.34px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-inline-start: auto;
+} */
+
+
+
+
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(165, 42, 42);
+}
+
+.container-vitrine {
+    margin-top: 1px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 370px;
+    justify-content: space-between;
+}
+
+.item-vitrine {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-vitrine .container-vitrine {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+    margin: 20px;
+}
+
+.row {
+    margin-top: 35px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(170, 52, 52);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    height: 120px;
+}
+
+
+div.body-content {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+.promo {
+    align-items: center;
+    font-family: alex brush;
+    display: inline-block;
+    margin-left: auto;
+    margin-top: 5px;
+    color: rgb(165, 42, 42);
+}
+
+.tarja {
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+div .produto {
+    background: linear-gradient(0deg, rgb(165, 42, 42), transparent);
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0;
+    transition: .5s;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+form {
+    margin-top: 35px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-row {
+    margin-top: 35px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247,211,211);
+}
+
+.container-row {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(170, 52, 52);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    justify-content: space-around;
+
+}
+
+.container-row {
+    cursor: pointer;
+    width: 300px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(170 52 52);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    justify-content: space-around;
+    
+}

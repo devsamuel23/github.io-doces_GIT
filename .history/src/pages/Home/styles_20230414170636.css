@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.produto-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10 25px;
+    margin: 20px auto;
+    }
+    .produto-container h1 {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    color:blue;
+    }
+    
+    .produto-container ul {
+    display: grid;
+    padding: 0 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    list-style: none;
+    } 

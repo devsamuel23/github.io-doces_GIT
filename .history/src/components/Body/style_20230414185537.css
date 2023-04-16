@@ -1,0 +1,23 @@
+
+.container-doces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-Detalhes1 {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 10px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin-top: 90px;
+  width: 400px;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  transition-delay: 0.5s;
+}
+
+.card-Detalhes1:hover {
+  cursor: pointer;
+  width: 300px;
+}
