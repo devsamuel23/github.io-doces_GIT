@@ -1,0 +1,20 @@
+{
+    "name": "Minha extensão",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "chrome://settings/content/languages"
+      ]
+    "description": "Minha descrição da extensão",
+    "content_scripts": [
+      {
+        "matches": ["https://devsamuel23.github.io/ecommerce/"],
+        "js": ["meu_script.js", "meu_script.js.map"],
+        "run_at": "document_end"
+      }
+    ],
+    "web_accessible_resources": [
+      "meu_script.js.map"
+    ]
+  }
+  
